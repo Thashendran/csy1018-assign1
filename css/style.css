@@ -1,0 +1,80 @@
+html, body{
+  height: 100%;
+  background-color: skyblue;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: (33,111,237);
+}
+.name {
+  background-color: skyblue;
+  text-align: center;
+
+}
+
+.class {
+  background: white;
+  text-align: center;
+  font-size: 3.7em;
+
+}
+
+.cv-page {
+  background:white;
+  text-align: center;
+  font-family: fantasy;
+  text-transform: capitalize;
+  font-size: 3.7em;}
+
+
+
+
+.home-nav {
+  list-style-type: nome;
+  margin:0;
+  padding: 0;
+  display: block;
+  width: 60px;
+  display: inline;
+  font-size: 2.4em;
+  border-style:ridge;
+
+
+
+}
+.cv-bar {
+  list-style-type: nome;
+  margin:0;
+  padding: 0;
+  display: block;
+  width: 60px;
+  display: inline;
+  font-size: 2.4em;
+  border-style: ridge;
+
+
+}
+.bio-bar {
+  list-style-type: nome;
+  margin:0;
+  padding: 0;
+  display: block;
+  width: 60px;
+  display: inline;
+  font-size: 2.4em;
+  border-style: ridge;
+
+}
+.contact-bar {
+  list-style-type: nome;
+  margin:0;
+  padding: 0;
+  display: block;
+  width: 60px;
+  display: inline;
+  font-size: 2.4em;
+  border-style: ridge;
+
+}
