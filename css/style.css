@@ -1,23 +1,45 @@
 html, body{
   height: 100%;
-  background-color: skyblue;
+  background-color: white;
+  margin: auto;
 
 }
 body {
   display: flex;
   flex-direction: column;
   background-color: (33,111,237);
+  margin: 0;
 }
 .name {
   background-color: skyblue;
   text-align: center;
+  font-family: "molle",cursive;
 
 }
+
 
 .class {
   background: white;
   text-align: center;
   font-size: 3.7em;
+
+}
+
+.nav-item{
+background-color: rgb(2, 219, 212);
+font-size: 2.8em;
+padding: 10;
+list-style-type:none;
+margin: 0;
+padding: 0;
+float: center;
+overflow: hidden;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+
+
+
 
 }
 
@@ -38,8 +60,12 @@ body {
   display: block;
   width: 60px;
   display: inline;
-  font-size: 2.4em;
-  border-style:ridge;
+  font-size: 0.9em;
+  border-style:none;
+  text-decoration:underline;
+
+
+
 
 
 
@@ -51,8 +77,10 @@ body {
   display: block;
   width: 60px;
   display: inline;
-  font-size: 2.4em;
-  border-style: ridge;
+  font-size: 0.9em;
+  border-style: none;
+  padding: 5px;
+  text-decoration: none;
 
 
 }
@@ -63,8 +91,9 @@ body {
   display: block;
   width: 60px;
   display: inline;
-  font-size: 2.4em;
-  border-style: ridge;
+  font-size: 0.9em;
+  border-style: none;
+  padding: 5px;
 
 }
 .contact-bar {
@@ -74,8 +103,9 @@ body {
   display: block;
   width: 60px;
   display: inline;
-  font-size: 2.4em;
-  border-style: ridge;
+  font-size: 0.9em;
+  border-style: none;
+  padding: 5px;
 
 }
 
@@ -84,5 +114,11 @@ body {
   font-family: fantasy;
 
 
+
+}
+.bio-data {
+  text-align: right;
+  list-style-type: none;
+  font-size: 1.4em;
 
 }
