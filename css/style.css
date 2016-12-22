@@ -18,12 +18,7 @@ body {
 }
 
 
-.class {
-  background: white;
-  text-align: center;
-  font-size: 3.7em;
 
-}
 
 .nav-item{
 background-color: rgb(2, 219, 212);
@@ -36,14 +31,28 @@ float: center;
 overflow: hidden;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
-  text-decoration: none !important;
+
 }
+.home-nav {
+  list-style-type: none;
+  margin:0;
+  padding: 15px;
+  display: block;
+  width: 60px;
+  display: inline;
+  font-size: 0.9em;
+  border-style:none;
+  color: rgb(214, 67, 216);
+}
+
 a {
   text-decoration: none;
+  color: rgb(154, 17, 175);
 }
 
 
-.cv-page {
+
+.page-head {
   background:white;
   text-align: center;
   font-family: fantasy;
@@ -54,24 +63,7 @@ a {
 
 
 
-.home-nav {
-  list-style-type: none;
-  margin:0;
-  padding: 15px;
-  display: block;
-  width: 60px;
-  display: inline;
-  font-size: 0.9em;
-  border-style:none;
-  text-decoration: none !important;
 
-}
-
-
-.about-me {
-  text-align: center;
-  font-family: fantasy;
-}
 
 .bio-data {
   text-align: right;
@@ -81,8 +73,12 @@ a {
 }
 
 .main-image {
-  float: center;
+
   display: flex;
+  position: fixed;;
+  float: right;
+}
 
-
+.contact-info {
+  list-style-type: none;
 }
