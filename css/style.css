@@ -60,25 +60,72 @@ a {
   font-size: 3.7em;
 }
 
-
-
-
-
-
 .bio-data {
   text-align: right;
   list-style-type: none;
   font-size: 1.4em;
+  padding-right: 20px;
 
 }
 
 .main-image {
 
-  display: flex;
-  position: fixed;;
-  float: right;
+  margin: 0 auto;
+  display: block;
+
 }
 
 .contact-info {
   list-style-type: none;
+  text-align: center;
+
 }
+
+.cv-detail {
+font-family: cursive;
+font-size: 35px;
+}
+
+
+/* form stayling section */
+form {
+  margin:0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1.5px solid black;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em:auto;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus, textarea;focus {
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+button {
+  margin-left: .5em;
+}
+/* form stayling section */
