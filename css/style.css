@@ -1,150 +1,164 @@
-html, body{
-  height: 100%;
-  background-color: white;
-  margin: auto;
-
-}
 body {
-  display: flex;
-  flex-direction: column;
-  background-color: (33,111,237);
-  margin: 0;
+    background-color: rgb(232, 232, 232);
+    margin: 0;
 }
+
+.main-content {
+    flex: 1 1;
+    flex-direction: column;
+}
+
 .name {
-  background-color: white;
-  text-align: center;
-  font-family: "molle",cursive;
-
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    font-family: "molle", cursive;
+    padding-top: 40px;
 }
 
-
-
-
-.nav-item{
-background-color: rgb(2, 219, 212);
-font-size: 2.8em;
-padding: 10;
-list-style-type:none;
-margin: 0;
-padding: 0;
-float: center;
-overflow: hidden;
-text-align: center;
-font-family: 'Montserrat', sans-serif;
-
+.nav-item {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(2, 219, 212);
+    font-size: 2.8em;
+    padding: 10;
+    list-style-type: none;
+    margin: 0;
+    float: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .home-nav {
-  list-style-type: none;
-  margin:0;
-  padding: 15px;
-  display: block;
-  width: 60px;
-  display: inline;
-  font-size: 0.9em;
-  border-style:none;
-  color: rgb(99, 5, 175);
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: block;
+    width: 60px;
+    display: inline;
+    font-size: 0.9em;
+    border-style: none;
+    color: rgb(99, 5, 175);
 }
 
 a {
-  text-decoration: none;
-  color:rgb(70, 0, 127);
+    text-decoration: none;
 }
 
-
-
 .page-head {
-  background:white;
-  text-align: center;
-  font-family: fantasy;
-  text-transform: capitalize;
-  font-size: 3.7em;
+    background: rgb(232, 232, 232);
+    text-align: center;
+    font-family: fantasy;
+    text-transform: capitalize;
+    font-size: 3.7em;
+    padding: 20px;
 }
 
 .bio-data {
-  text-align: right;
-  list-style-type: none;
-  font-size: 1.4em;
-  padding-right: 1.5em;
-
+    text-align: right;
+    list-style-type: none;
+    font-size: 1.4em;
+    padding-right: 75px;
 }
 
 .main-image {
+    margin: 0 auto;
+    display: block;
+}
 
-  margin: 0 auto;
-  display: block;
-
+.cv-image {
+    height: 350px;
+    width: 270px;
+    padding-left: 75px;
+    padding-bottom: 10px;
+    margin: 0;
 }
 
 .contact-info {
-  list-style-type: none;
-  text-align: center;
-
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.4em;
 }
 
 .cv-detail {
-font-family: cursive;
-font-size: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 1.5em;
 }
 
-.qalification{
-  list-style-type: none;
-
+.qualification {
+    list-style-type: none;
+    font-size: 1.4em;
+    text-align: left;
+    padding-left: 75px;
+    padding-bottom: 75px;
 }
-.hobbies{
-  list-style-type: none;
 
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7.5%;
+    background-color: rgb(2, 219, 212);
 }
 
-.footer{
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height:7.5%;
-  background: rgb(2, 219, 212);
+.face-link {
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
 }
 
 
 /* form stayling section */
+
+
 /*https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
+
 form {
-  margin:0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1.5px solid black;
-  border-radius: 1em;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1.5px solid black;
+    border-radius: 1em;
 }
 
-form div + div {
-  margin-top: 1em:auto;
+form div+div {
+    margin-top: 1em:auto;
 }
 
 label {
-  display: inline-block;
-  width: 90px;
-  text-align: center;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
 }
 
 input, textarea {
-  font: 1em sans-serif;
-  width: 300px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid #999;
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
 }
-input:focus, textarea;focus {
-  border-color: #000;
+
+input:focus, textarea;
+focus {
+    border-color: #000;
 }
+
 textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
 }
 
 .button {
-  padding-left: 90px;
+    padding-left: 90px;
 }
+
 button {
-  margin-left: .5em;
+    margin-left: .5em;
 }
+
+
 /* form stayling section */
